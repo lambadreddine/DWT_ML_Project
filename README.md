@@ -4,7 +4,7 @@ This repository presents an end-to-end intelligent fault diagnosis pipeline for 
 
 ---
 
-## 🚀 Intelligent Diagnosis Pipeline Overview
+##  Intelligent Diagnosis Pipeline Overview
 
 The system processes raw, non-stationary time-series vibration signals through a structured machine learning pipeline to classify four distinct machine health states:
 
@@ -18,7 +18,7 @@ The system processes raw, non-stationary time-series vibration signals through a
 
 ---
 
-## 📊 1. Multi-Class Health States
+##  1. Multi-Class Health States
 
 The diagnostic models are trained to classify the machinery condition into four highly distinct operational classes:
 * **Healthy:** Baseline steady-state control group with nominal clearance.
@@ -28,7 +28,7 @@ The diagnostic models are trained to classify the machinery condition into four 
 
 ---
 
-## ⚙️ 2. Preprocessing & Feature Engineering
+##  2. Preprocessing & Feature Engineering
 
 ### A. Preprocessing
 * **Normalization:** Signals are scaled using Min-Max scaling to ensure uniform distribution, removing amplitude variations caused by differing operational speeds.
@@ -53,7 +53,7 @@ All calculated features are compiled into a highly structured **Feature Matrix**
 
 ---
 
-## 🤖 3. Model Evaluation & Performance Metrics
+##  3. Model Evaluation & Performance Metrics
 
 The feature matrix was trained, validated, and tested across multiple machine learning architectures to evaluate comparative optimization:
 
@@ -63,7 +63,7 @@ The feature matrix was trained, validated, and tested across multiple machine le
 * **Random Forest (RF):** Ensemble decision tree architecture.
 * **Feedforward Neural Network (FNN):** A multi-layer deep network optimized with backpropagation.
 
-### 🏆 Benchmark Champion Results
+###  Benchmark Champion Results
 
 Following extensive cross-validation, the **Feedforward Neural Network (FNN)** completely outperformed the classical models due to its superior capacity to map highly non-linear time-frequency combinations.
 
