@@ -8,7 +8,7 @@ This repository presents an end-to-end intelligent fault diagnosis pipeline for 
 
 The system processes raw, non-stationary time-series vibration signals through a structured machine learning pipeline to classify four distinct machine health states:
 
-![Workflow](images/workflow_2.jpg)
+![Workflow](Images/Workflow_2.jpg)
 
 1. **Data Acquisition:** Multi-class vibration signatures captured directly from the experimental test rig.
 2. **Preprocessing:** Signal standardization (Normalization) followed by window-based data splitting (Segmentation).
